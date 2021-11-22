@@ -9,6 +9,25 @@
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #DDD5D0;
+            font-size: 16px;
+        }
+
+        h1 {
+            color: #586F6B;
+        }
+
+        .destaque {
+            color: #586F6B;
+            text-decoration: underline;
+            font-weight: 700;
+            line-height: 2em;
+            font-size: 1.25em;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #463F3A;
+            background-color: #8A817C;
         }
     </style>
     <title>Portfólio Web</title>
@@ -16,17 +35,17 @@
 <body>
     <h1>Kaike Yudi Ando dos Santos</h1>
     <img id="foto" src="Perfil.png" alt="Foto de perfil" width="200px">
-    <p id="descricao">Nascido em 18/05/2002, amante de jogos, animais e programação, moro em Guarulhos, São Paulo e sou <em>estudante da Trybe</em>.</p>
+    <p id="descricao">Nascido em 18/05/2002, amante de jogos, animais e programação, moro em <strong class="destaque">Guarulhos, São Paulo</strong> e sou <em class="destaque">estudante da Trybe</em>.</p>
     <ul id="habilidades">
         <li>Resiliência</li>
-        <li><strong>Determinação</strong></li>
+        <li><strong class="destaque">Determinação</strong></li>
         <li>Responsabilidade</li>
-        <li><strong>Foco</strong></li>
+        <li><strong class="destaque">Foco</strong></li>
         <li>Organização</li>
     </ul>
-    <a href="#foto"><em>Foto</em></a>
-    <a href="#descricao"><em>Descrição</em></a>
-    <a href="#habilidades"><em>Habilidades</em></a>
-    <a href="https://blog.betrybe.com/" target="_blank"><em>Blog</em></a>
+    <a class="link" href="#foto"><em>Foto</em></a>
+    <a class="link" href="#descricao"><em>Descrição</em></a>
+    <a class="link" href="#habilidades"><em>Habilidades</em></a>
+    <a class="link" href="https://blog.betrybe.com/" target="_blank"><em>Blog</em></a>
 </body>
 </html>
