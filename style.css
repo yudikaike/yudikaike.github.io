@@ -4,8 +4,16 @@ body {
     font-size: 16px;
 }
 
-h1 {
+#nome {
     color: #586F6B;
+}
+
+#descricao {
+    position: absolute;
+    width: 400px;
+    left: 230px;
+    top: 120px;
+    text-align: justify;
 }
 
 .destaque {
