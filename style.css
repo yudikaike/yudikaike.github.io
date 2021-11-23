@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DDD5D0;
+    font-size: 16px;
+}
+
+h1 {
+    color: #586F6B;
+}
+
+.destaque {
+    color: #586F6B;
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 2em;
+    font-size: 1.25em;
+}
+
+.link {
+    text-decoration: none;
+    color: #463F3A;
+    background-color: #8A817C;
+}
+
+.list-item {
+    line-height: 2.5em;
+    font-size: 1.15em;
+}
