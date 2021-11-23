@@ -27,8 +27,9 @@ body {
     color: #586F6B;
     text-decoration: underline;
     font-weight: 700;
-    line-height: 2em;
     font-size: 1.25em;
+    margin: 10px;
+    padding: 10px;
 }
 
 .link {
@@ -43,4 +44,9 @@ body {
     font-size: 1.15em;
     margin: 10px;
     padding: 10px;
+}
+
+ul li:nth-of-type(odd) {
+    color: red;
+    background-color: aquamarine;
 }
