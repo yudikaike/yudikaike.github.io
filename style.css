@@ -17,6 +17,11 @@ body {
     text-align: justify;
 }
 
+#foto {
+    padding: 10px;
+    background-color: #271F30;
+}
+
 .destaque {
     color: #586F6B;
     text-decoration: underline;
