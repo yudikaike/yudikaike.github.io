@@ -1,52 +1,152 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #DDD5D0;
-    font-size: 16px;
-}
-
-#nome {
-    color: #586F6B;
-    text-align: center;
-}
-
-#descricao {
-    position: absolute;
-    width: 400px;
-    left: 230px;
-    top: 120px;
-    text-align: justify;
-    padding: 10px;
-}
-
-#foto {
-    padding: 10px;
-    background-color: #271F30;
-}
-
-.destaque {
-    color: #586F6B;
-    text-decoration: underline;
-    font-weight: 700;
-    font-size: 1.25em;
-    margin: 10px;
-    padding: 10px;
-}
-
-.link {
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #463F3A;
-    background-color: #8A817C;
-    margin: 10px;
-    padding: 10px;
 }
 
-.list-item {
-    font-size: 1.15em;
-    margin: 10px;
-    padding: 10px;
+a {
+    color: black;
 }
 
-ul li:nth-of-type(odd) {
-    color: red;
-    background-color: aquamarine;
+h2 {
+    font-weight: 400;
+}
+
+main {
+    height: 80%;
+    display: grid;
+    padding-left: 4em;
+    font-size: large;
+    align-content: center;
+}
+
+main div {
+    height: 30%;
+}
+
+main p {
+    width: 50%;
+}
+
+#menu {
+    display: grid;
+    height: 2em;
+    text-align: center;
+    justify-content: end;
+    padding: 1em;
+    color: black;
+}
+
+#menu a {
+    transition: all 0.25s ease-out;
+}
+
+#mainSobre :nth-child(2n) {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#mainFormacao h2 {
+    margin-bottom: 16px;
+}
+
+#mainFormacao ul {
+    list-style: inside;
+    margin-bottom: 32px;
+}
+
+#mainPortfolio h2 {
+    margin-bottom: 1em;
+}
+
+#portfolioProjetos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    justify-items: center;
+    margin-right: 4em;
+}
+
+#portfolioProjetos div {
+    width: 400px;
+    height: 350px;
+    box-shadow: 5px 5px 15px #6d6d6d;
+    transition: all 0.25s ease-in-out;
+}
+
+/* Movimentar levemente para cima os projetos ao passar o mouse por cima */
+#portfolioProjetos div:hover {
+    transform: translateY(-5px);
+}
+
+#portfolioProjetos div a {
+    width: inherit;
+    height: 100%;
+}
+
+#portfolioProjetos div a {
+    width: inherit;
+    height: 100%;
+}
+
+#portfolioProjetos div img {
+    margin-top: 1em;
+    width: inherit;
+    height: 80%;
+}
+
+#portfolioProjetos div p {
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#mainContato {
+    width: 75%;
+}
+
+#mainContato h2 {
+    margin-bottom: 1em;
+}
+
+#mainContato div {
+    margin-bottom: 16px;
+}
+
+#mainContato div label {
+    display: inline-block;
+    width: 15%;
+}
+
+#mainContato div input, textarea {
+    display: inline-block;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: all 0.25s ease-out;
+}
+
+/* Remover borda ao clicar em um campo */
+#mainContato div input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+.menuButton {
+    margin: 1em;
+    font-weight: 500;
+}
+
+.menuButton {
+    margin: 1em;
+    font-weight: 500;
+}
+
+/* Classe para sublinhar os botões do menu */
+.underline {
+    border-bottom: 1px solid #6d6d6d;
+    color: #6d6d6d;
 }
